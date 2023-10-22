@@ -86,7 +86,7 @@ int main() {
     }
     in.close();
     ofstream out("output.txt");
-    tree.root = Delete(x,tree.root);
+    tree.root = Delete(x, tree.root);
     Travel(tree.root, out);
     out.close();
 }

@@ -1,0 +1,9 @@
+# ninja log v5
+0	350	1697994562695177366	CMakeFiles/bin_tree_removal.dir/main.cpp.o	870aed012a4de04
+352	378	1697994562724333209	bin_tree_removal	e2c39a1825dc7a44
+5	436	1697994826109709465	CMakeFiles/bin_tree_removal.dir/main.cpp.o	870aed012a4de04
+436	472	1697994826148689761	bin_tree_removal	e2c39a1825dc7a44
+6	449	1697994930134320276	CMakeFiles/bin_tree_removal.dir/main.cpp.o	870aed012a4de04
+449	485	1697994930173083823	bin_tree_removal	e2c39a1825dc7a44
+5	432	1697995050983988358	CMakeFiles/bin_tree_removal.dir/main.cpp.o	870aed012a4de04
+432	469	1697995051023124192	bin_tree_removal	e2c39a1825dc7a44
