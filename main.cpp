@@ -58,21 +58,19 @@ TreeNode *Delete(int x, TreeNode *v) {
         v->left = Delete(x, v->left);
         return v;
     } else if (x > v->key) {
-
         v->right = Delete(x, v->right);
         return v;
     }
     if (v->left == nullptr) {
         return v->right;
     } else if (v->right == nullptr) {
-        return v->right;
+        return v->left;
     } else {
         int min = Min_Node(v->right)->key;
         v->key = min;
         v->right = Delete(min, v->right);
     }
     return v;
-
 }
 
 
@@ -88,7 +86,7 @@ int main() {
     }
     in.close();
     ofstream out("output.txt");
-    Delete(x,tree.root);
+    tree.root = Delete(x,tree.root);
     Travel(tree.root, out);
     out.close();
 }
